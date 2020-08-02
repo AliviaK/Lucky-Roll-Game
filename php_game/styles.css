@@ -1,0 +1,65 @@
+/** Bootstrap styling reference: https://www.w3schools.com/bootstrap4/default.asp */
+.jumbotron {
+    background-color: #d37d00;
+    border: 1px solid #161ca3;
+}
+
+.nav {
+    background-color: #4c58f2;
+    border: 1px solid #161ca3;
+}
+
+body {
+    background-color: #f2b53d;
+    font-size: 1.2em;
+}
+
+.card {
+    background-color: #f96b5d;
+    border: 1px solid #161ca3;
+}
+
+.card-header {
+    background-color: #e00a0a;
+}
+
+.card-img-overlay {
+    width: 100%;
+    padding: 0;
+}
+
+.dice {
+    padding: 0;
+    width: 500px;
+    height: auto;
+}
+
+/** White text black border reference: https://css-tricks.com/adding-stroke-to-web-text/ */
+.dice-number {
+    font-weight: bold;
+    font-size: 5em;
+    margin: .2em 0;    
+    text-shadow: 
+        -1px -1px 0 #000,
+        1px -1px 0 #000,
+        -1px 1px 0 #000,
+        1px 1px 0 #000;
+}
+
+.hp {
+    font-weight: bold;
+    text-shadow: 
+        -1px -1px 0 #000,
+        1px -1px 0 #000,
+        -1px 1px 0 #000,
+        1px 1px 0 #000;
+}
+
+.fight-card {
+    background-color: #d37d00;
+    padding: 1em;
+}
+
+.hero {
+    margin: 1em;
+}
